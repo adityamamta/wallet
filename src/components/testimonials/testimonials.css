@@ -1,0 +1,6 @@
+.testimonials {
+    width: 100%;
+    padding-inline: var(--side-space);
+    background-color: var(--bg-black);
+    padding-block: 4rem;
+}

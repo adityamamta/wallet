@@ -1,0 +1,43 @@
+.logos {
+    width: 100%;
+    padding-inline: var(--side-space);
+    background-color: var(--bg-black);
+}
+
+.logos-container {
+    padding-block: 6.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;  
+    column-gap: 2rem;
+    row-gap: 3rem;
+    position: relative;
+    &::after, &::before {
+        position: absolute;
+        content: "";
+        height: .1rem;
+        width: 100%;
+        left: 0;
+        border-radius: .1rem;
+        background-color: var(--white);
+        opacity: .2;
+    }
+    &::after {
+        top: 0;
+    }
+    &::before {
+        bottom: 0;
+    }
+}
+
+.brand-logo {
+    height: 3.5rem;
+}
+
+@media (max-width: 450px) {
+    .logos-container {
+        padding-block: 3.5;
+        flex-direction: column;
+    }
+}

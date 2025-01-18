@@ -1,0 +1,36 @@
+.features {
+    width: 100%;
+    padding-inline: var(--side-space);
+    background-color: var(--bg-black);
+    padding-block: 4rem;
+}
+
+.features-container {
+    display: grid;  
+    grid-template-columns: repeat(auto-fit, minmax(auto, 32rem));
+    justify-content: center;
+    column-gap: 2.4rem;
+    row-gap: 3.4rem;
+}
+
+.card {
+    text-align: center;
+    padding-inline: 3.2rem;
+    img {
+        --icon-size: 7rem;
+        height: var(--icon-size);
+        width: var(--icon-size);
+    }
+    h4 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: var(--white);    
+        margin-top: 3rem;
+        margin-bottom: 1.4rem;
+    }
+    p {
+        font-size: 1.6rem;
+        color: var(--white);
+        opacity: .4;
+    }
+}

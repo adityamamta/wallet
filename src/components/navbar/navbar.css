@@ -1,0 +1,67 @@
+
+header {
+    width: 100%;
+    padding-inline: var(--side-space);
+    background-color: var(--bg-black);
+}
+
+.nav-container {
+    max-width: 132rem;
+    margin-inline: auto;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 3.4rem;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 2.4rem;
+    .btn {
+        font-size: 1.6rem;
+        color: var(--white);
+        padding-block: 1rem;
+        padding-inline: 4.2rem;
+        border: none;
+        border-radius: .6rem;
+        background-color: transparent;
+        cursor: pointer;
+        transition: background-color .3s ease;
+    }
+    .sign-up {
+        padding-inline: 2.8rem;
+        &:hover {
+            background-color: var(--black);
+        }
+    }
+    .fill-btn {
+        background-color: var(--blue);
+        color: var(--black);
+        &:hover {
+            background-color: var(--blue-hover);
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .logo {
+        font-size: 2.6rem;
+    }
+    .nav-buttons {
+        gap: .6rem;
+        .btn {
+            font-size: 1.4rem;
+            padding-inline: 3.2rem;
+        }
+        .sign-up {
+            padding-inline: .8rem;
+        }
+    }
+    
+}
