@@ -1,8 +1,8 @@
-# SaaS Landing Page Template
+# SaaS Landing Page
 
 <!-- ## <a href="https://adityamamta.github.io/wallet/"><img src="readme-btn.png" alt="Click to view live website" height="120"></a> -->
 
-A visually appealing and responsive SaaS landing page template built with **React**, featuring:
+A visually appealing and responsive SaaS landing page built with **React**, featuring:
 
 - **Swiper.js** for interactive carousels.
 - **Framer Motion** for scroll reveal animations.
