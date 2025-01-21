@@ -1,3 +1,4 @@
+import React, { useEffect } from "react";
 import Hero from './components/hero/hero.jsx';
 import Navbar from './components/navbar/navbar.jsx';
 import Logos from './components/logos/logos.jsx';
@@ -9,6 +10,9 @@ import Footer from './components/footer/footer.jsx';
 
 
 function App() {
+  useEffect(() => {
+    document.title = "Wallet";
+  }, []);
 
   return (
     <>
