@@ -1,8 +1,31 @@
-# React + Vite
+# SaaS Landing Page Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## <a href="https://adityamamta.github.io/wallet/"><img src="readme-btn.png" alt="Click to view live website" height="120"></a>
 
-Currently, two official plugins are available:
+A visually appealing and responsive SaaS landing page template built with **React**, featuring:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Swiper.js** for interactive carousels.
+- **Framer Motion** for scroll reveal animations.
+
+---
+
+## Features
+- **Responsive Design**: Fully optimized for all screen sizes.
+- **Interactive Elements**: Smooth animations and transitions.
+- **Modern UI**: A sleek, professional design for SaaS businesses.
+
+---
+
+## Technologies Used
+- **React**: Frontend framework.
+- **Swiper.js**: Carousel and slider functionality.
+- **Framer Motion**: Animation and motion effects.
+
+---
+
+## 💼 Contact Me 
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/adityamamta/)
+- **Email**: adityamamta4@gmail.com
+
+---
+<!-- ![Preview Image](img/preview-image.png) -->
